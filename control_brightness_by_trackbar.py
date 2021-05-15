@@ -13,7 +13,7 @@ def control(pos):
     dst = sturate(cv.add(src, pos))
     cv.imshow('dst', dst)
 
-path = 'img/Lenna.png'
+path = # img path
 src = cv.imread(path, cv.IMREAD_GRAYSCALE)
 if src is None:
     print('img load failed')
