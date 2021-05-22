@@ -33,7 +33,7 @@ def equalizatoin(src):
 
     plt.show()
 
-path = 'img/ch.png'
+path = # img path
 img = cv.imread(path, cv.IMREAD_GRAYSCALE)
 
 if img is None:
