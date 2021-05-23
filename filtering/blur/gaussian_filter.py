@@ -9,7 +9,7 @@ def control_sigma(sigma):
     cv.putText(dst, f'sigma: {sigma}', (10, 30),cv.FONT_HERSHEY_SIMPLEX, 1, 255, 1, cv.LINE_AA)
     cv.imshow('main', np.concatenate((src, dst), axis=1))
 
-path = 'img/Lenna.png'
+path = # img path
 src = cv.imread(path, cv.IMREAD_GRAYSCALE)
 
 if src is None:
